@@ -12,16 +12,23 @@
             <field name="inherit_id" ref="product.product_template_form_view"/>
             <field name="arch" type="xml">
     
+ <xpath expr="//notebook" position="before">
+ <group>
+               	<group name="group_left">
+                    <field name="donation"  />
+                    <field name="govtSupply" />
+                    <field name="dentalItem"  />
+                      </group>
+              	<group name="group_right">
 
-
- <xpath expr="//div[@name='options']" >  
-                <field name="donation"  class="oe_edit_only"/>
-  <label for="donation" string="Donation" class="oe_edit_only"/>  
-              
-
+                    <field name="mohpEM" />
+                    <field name="orphanDrug"  />
+                  </group>
+                </group>
             </xpath>
             </field>
         </record>
+
 </data>
 
 </odoo>
