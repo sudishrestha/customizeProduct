@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+<!-- Adding the fields from product.product to the screen -->
+        <record id="product_normal_form_view" model="ir.ui.view">
+            <field name="name">base.product.defaults.product.form</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_normal_form_view"/>
+            <field name="arch" type="xml">
+                 <field name="categ_id" position="after">
+			
+
+			<div class="custProd">
+                                <field name="mohpEM"/>
+                                <label for="mohpEM"/>
+			</div>
+
+
+			<div class="custProd">
+                                <field name="dentalItem"/>
+                                <label for="dentalItem"/>
+			</div>
+                      
+
+			<div class="custProd">
+                                <field name="donation"/>
+                                <label for="donation"/>
+			</div>
+
+			<div class="custProd">
+                                <field name="orphanDrug"/>
+                                <label for="orphanDrug"/>
+                         </div>
+
+
+			<div  class="custProd">
+                                <field name="govtSupply"/>
+                                <label for="govtSupply"/>
+                        </div>
+
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>

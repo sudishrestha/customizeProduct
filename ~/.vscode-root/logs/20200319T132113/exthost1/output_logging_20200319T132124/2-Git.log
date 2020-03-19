@@ -1,0 +1,319 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/possible/Desktop/customAddons/customizeProduct
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :__init__.py
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/__init__.py
+> git cat-file -s e7d401d7056fa7a74985530fac5bf4f40626db39
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :__openerp__.py
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/__openerp__.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :customProduct.py
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/customProduct.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :customProductView.xml
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/customProductView.xml
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :__init__.py
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/__init__.py
+> git cat-file -s e7d401d7056fa7a74985530fac5bf4f40626db39
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :__openerp__.py
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/__openerp__.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :customProduct.py
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/customProduct.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :customProductView.xml
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/customProductView.xml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :static/src/css/customProduct.css
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/static/src/css/customProduct.css
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :__init__.py
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/__init__.py
+> git cat-file -s e7d401d7056fa7a74985530fac5bf4f40626db39
+> git show :__openerp__.py
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/__openerp__.py
+> git show :customProduct.py
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/customProduct.py
+> git show :customProductView.xml
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/customProductView.xml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse openerp
+> git rev-parse --symbolic-full-name openerp@{u}
+> git rev-list --left-right openerp...refs/remotes/origin/openerp
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/possible/Desktop/customAddons/customizeProduct/.git/refs/remotes/origin/openerp'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:592073)
+	at E.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:123277)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:561)
+	at R.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:142135)
+> git config --get commit.template
+> git show :__init__.py
+> git ls-files --stage -- /home/possible/Desktop/customAddons/customizeProduct/__init__.py
+> git cat-file -s e7d401d7056fa7a74985530fac5bf4f40626db39
